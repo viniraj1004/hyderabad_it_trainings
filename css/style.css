@@ -758,7 +758,7 @@ form select {
     width: 90%;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px 2px grey;
+    /* box-shadow: 5px 5px 10px 2px grey; */
 }
 
 .modal-body h6 {
@@ -777,20 +777,6 @@ form select {
     font-size: 14px;
 }
 
-
-/* .modal-cust {
-    margin: 0px 5px;
-} */
-
-
-/* .modal-body .moadl-cust {
-    padding-top: 10px; */
-
-
-/* padding-left: 4px;
-    padding-bottom: 4px;
-} */
-
 .btn-close {
     box-sizing: content-box;
     width: 1em;
@@ -803,53 +789,35 @@ form select {
     opacity: 0;
 }
 
-.modal-footer {
-    text-decoration: none;
-    color: #fff !important;
+.modal-footer button {
+    margin: 20px;
+    width: 320px;
+    padding: 8px 12px;
+    border-radius: 25px;
     font-size: 15px;
     font-weight: 700;
     line-height: 20px;
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 8px 12px;
-    border-radius: 25px;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    background-color: #3a8106 !important;
-    margin: 20px;
-    overflow: hidden;
+}
+
+.modal-footer img {
+    margin-bottom: 5px;
 }
 
 .modal-footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center !important;
     padding: 0rem !important;
-    border-top: 1px solid #dee2e6;
-    border-bottom-right-radius: 25px !important;
-    border-bottom-left-radius: 25px !important;
 }
 
-.modal-footer>* {
-    margin: 0rem !important;
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * 0) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0) !important;
 }
 
-.btn-lg {
-    padding: 5px !important;
-    font-size: 1.25rem;
-    border-radius: 0.3rem;
+.tex-bol {
+    font-weight: 700;
 }
 
-.footer-bottom {
+
+/* .footer-bottom {
     text-align: center;
     font: 400 normal 15px/1.3 -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
     margin-bottom: 15px;
@@ -857,18 +825,20 @@ form select {
     font-style: italic;
     font-size: 12px;
     color: lightgray;
-}
+} */
 
-.footer-bottom a {
+
+/* .footer-bottom a {
     display: inline-block;
-}
+} */
 
-.footer-bottom a {
+
+/* .footer-bottom a {
     color: #006eff6e !important;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-}
+} */
 
 .chat-box {
     background-color: white;

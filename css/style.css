@@ -401,7 +401,6 @@ h5 {
 .link ul li a {
     text-decoration: none;
     text-transform: none;
-    /* padding: 0px 0px 0px 0px; */
 }
 
 .link li {
@@ -757,7 +756,6 @@ form select {
     width: 90%;
     background-color: white;
     border-radius: 5px;
-    /* box-shadow: 5px 5px 10px 2px grey; */
 }
 
 .modal-body h6 {

@@ -119,6 +119,10 @@ body {
     align-items: center;
 }
 
+.sample {
+    color: red;
+}
+
 .header-top {
     background-color: #3a8106;
     padding-top: 9px;

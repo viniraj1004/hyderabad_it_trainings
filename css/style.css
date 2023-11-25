@@ -166,6 +166,60 @@ body {
     font-size: 14px;
 }
 
+/* dropdown */
+
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 12px !important;
+    color: #fff;
+    background-color: #07294d !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0rem !important;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    font-size: 13px !important;
+}
+
+hr {
+    margin: 0 !important;
+    color: inherit;
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    opacity: 1 !important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 1rem 1rem !important;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+/* .dropdown-menu .droplist {
+    border-bottom: 1px solid #cfcfcf;
+} */
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+} */
+
 form {
     padding: 0px 40px;
     overflow: hidden;
@@ -195,6 +249,19 @@ input {
     height: 55px;
 }
 
+#nameNote,
+#emailNote,
+#phoneNote,
+#messageNote,
+#courseNote,
+#subjectNote,
+#studentNote,
+#stuemailNote,
+#stuphoneNote,
+#stumessageNote {
+    color: red;
+    font-size: 13px;
+}
 
 /* Courses section */
 

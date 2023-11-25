@@ -72,89 +72,61 @@
           <li class="nav-item hover1 nav-hove">
             <a href="newBatches.html" class="nav-link ">New Batches</a>
           </li>
-          <li class="nav-item hover1 nav-hove dropdown place1" style="margin-left: 15px;">
-            <a class="dropdown-toggle text-decoration-none" data-toggle="place1" href="#">Placements<span
-                class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-place">
-              <li class="dropdown-submenu">
-                <ul
-                  class="dropdown-menu dropdown-menu-place position-fixed d-grid gap-1 p-2 rounded-3 mx-0 border-0 w-220px"
-                  data-bs-theme="dark">
-                  <li>
-                    <a class="dropdown-item rounded-2" href="currentOpenings.html">Current
-                      Openings</a>
-                  </li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" recentPlacements.html ">Recent
-                      Placements</a></li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" placedCompanies.html ">Placed
-                      Companies</a></li>
-                </ul>
+          <li class="nav-item dropdown nav-hove">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Placements
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="currentOpenings.html">Current
+                  Openings</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
+              <li><a class="dropdown-item" href="recentPlacements.html">Recent
+                  Placements</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="placedCompanies.html">Placed Companies</a></li>
             </ul>
           </li>
 
-          <li class="nav-item hover1 nav-hove dropdown register" style="margin-left: 17px;">
-            <a class="dropdown-toggle text-decoration-none" data-toggle="register" href="#">Register<span
-                class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-regis">
-              <li class="dropdown-submenu">
-                <ul
-                  class="dropdown-menu dropdown-menu-regis position-fixed d-grid gap-1 p-2 rounded-3 mx-0 border-0 w-220px"
-                  data-bs-theme="dark">
-                  <li>
-                    <a class="dropdown-item rounded-2" href="students.html">Students
-                    </a>
-                  </li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" instructor.html ">Instructor
-                    </a></li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" hireFormUs.html ">Hire Form Us
-                    </a></li>
-                </ul>
+          <li class="nav-item dropdown nav-hove">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Register
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="students.html">Students</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
+              <li><a class="dropdown-item" href="instructor.html">Instructor</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="hireFormUs.html">Hire Form Us</a></li>
             </ul>
           </li>
-          <li class="nav-item hover1 nav-hove dropdown student1" style="margin-left: 17px;">
-            <a class="dropdown-toggle text-decoration-none" data-toggle="student1" href="#">Student
-              Zone<span class="caret"></span></a>
-            <ul class="dropdown-menu dropdown-menu-stu">
-              <li class="dropdown-submenu">
-                <ul
-                  class="dropdown-menu dropdown-menu-stu position-fixed d-grid gap-1 p-2 rounded-3 mx-0 border-0 w-220px"
-                  data-bs-theme="dark">
-                  <li>
-                    <a class="dropdown-item rounded-2" href="reviews.html">Reviews
-                    </a>
-                  </li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" interviewQuestions.html ">Interview
-                      Questions
-                    </a></li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" tutorials.html ">Tutorials
-                    </a></li>
-                  <li>
-                    <hr class=" dropdown-divider ">
-                  </li>
-                  <li><a class=" dropdown-item rounded-2 " href=" resumes.html ">Resumes
-                    </a></li>
-                </ul>
+
+          <li class="nav-item dropdown nav-hove">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Student Zone
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="reviews.html">Reviews</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
+              <li><a class="dropdown-item" href="interviewQuestions.html">Interview
+                  Questions</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="tutorials.html">Tutorials</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="resumes.html">Resumes</a></li>
             </ul>
           </li>
           <li class="nav-item hover1 nav-hove" style="margin-left: 15px;">
@@ -459,51 +431,10 @@
     </div>
   </div>
 
+  <script src="/js/script.js"></script>
   <script src="/js/bootstrap.bundle.js "></script>
   <script src=" https://code.jquery.com/jquery-3.7.1.min.js "></script>
 
-  <script>
-    $('ul.nav li.place1').ready(function () {
-      $('.place1 a').hover(function () {
-        $('.dropdown-menu-place').slideDown("slow");
-      }),
-        $('.place1 a').click(function () {
-          $('.dropdown-menu-place').slideUp("slow");
-        }),
-        $('.hover1').hover(function () {
-          $('.dropdown-menu-place').slideUp("slow");
-        })
-    })
-  </script>
-
-  <script>
-    $('ul.nav li.register').ready(function () {
-      $('.register a').hover(function () {
-        $('.dropdown-menu-regis').slideDown("slow");
-      }),
-        $('.register a').click(function () {
-          $('.dropdown-menu-regis').slideUp("slow");
-        }),
-        $('.hover1').hover(function () {
-          $('.dropdown-menu-regis').slideUp("slow");
-        })
-
-    })
-  </script>
-
-  <script>
-    $('ul.nav li.student1').ready(function () {
-      $('.student1 a').hover(function () {
-        $('.dropdown-menu-stu').slideDown("slow");
-      }),
-        $('.student1 a').click(function () {
-          $('.dropdown-menu-stu').slideUp("slow");
-        }),
-        $('.hover1').hover(function () {
-          $('.dropdown-menu-stu').slideUp("slow");
-        })
-    })
-  </script>
 </body>
 
 </html>
